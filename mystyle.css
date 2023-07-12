@@ -244,4 +244,68 @@
     transform: translateX(100%) rotate(45deg);
 }
 
+.button7{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color: #fff;
+}
+.button7 a{
+    text-decoration: none;
+    background-color:#dd05a7;
+    padding: 40px 80px;
+    color:transparent;
+    border: 3px solid #dd05a7;
+    font-size: 40px;
+    font-family: 'roboto';
+    position:relative;
+
+    transition: all 0.3s;   
+    overflow:hidden;
+}
+
+.button7 a:before{
+    content: 'Hover me!';
+    color:#dd05a7;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #f88fe3;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+}
+
+.button7 a:after{
+    content: 'Hover me!';
+    color:#dd05a7;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #f88fe3;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+    
+    transform: translate(-100%,100%);
+}
+
+.button7 a:hover:before{
+    transform: translate(100%,-100%);
+}
+
+.button7 a:hover:after{
+    transform: translate(0%,0%);
+}
+
+
 
