@@ -202,4 +202,46 @@
     transform: translateY(0);
 }
 
+.button6{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color: #111;
+}
+
+.button6 a{
+    text-decoration: none;
+    padding: 40px 80px;
+    color: #fff;
+    border: 3px solid #fff;
+    font-size: 40px;
+    font-family: 'roboto';
+    position:relative;
+    transition: all 0.3s;   
+    overflow:hidden;
+}
+
+.button6 a:before{
+    content: '';
+    color:white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 110%;
+    background-color: #fff;
+    transition: all 0.3s;
+    
+    transform: translateX(-100%)rotate(45deg);
+}
+
+.button6 a:hover{
+    background-color:#dd05a7;
+}
+
+.button6 a:hover:before{
+    transform: translateX(100%) rotate(45deg);
+}
+
 
