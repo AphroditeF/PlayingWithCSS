@@ -418,7 +418,7 @@
 }
 
 .button10 a:before{
-    content: 'button 9';
+    content: 'button 10';
     position: absolute;
     top: 0;
     left: 0;
@@ -439,7 +439,7 @@
 }
 
 .button10 a:after{
-    content: 'button 9';
+    content: 'button 10';
     position: absolute;
     top: 0;
     left: 0;
