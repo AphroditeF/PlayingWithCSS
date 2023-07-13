@@ -698,3 +698,89 @@
     color: #1a84f5;
     transition-delay: 0.4s;
   }
+
+  .button12 {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #807b7b;
+  }
+  
+  .button12 a {
+    width: 220px;
+    height: 80px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 80px;
+    transition: all 0.5s;
+    position: relative;
+  }
+
+  .button13 {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background-color: #fff;*/
+    
+  }
+  
+  .button13 a {
+    width: 300px;
+    height: 60px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color:#fff;
+    background-color: transparent;
+    line-height: 60px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    
+    position: relative;
+    transition: all 0.2s;
+  }
+  .button13 a:before {
+    content: '';
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    width: 100%;
+    height: 100%;
+    background-color: #1a84f5;
+    z-index: -1;
+    mix-blend-mode: multiply;
+    transition: all 0.2s;
+    transform-origin: top;
+  }
+
+.button13 a:hover:before{
+    top: -6px;
+    left: 0;
+    transform: perspective(1000px) rotateX(75deg);
+}
+
+  .button13 a:after {
+    content: '';
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 100%;
+    height: 100%;
+    background-color: #c30564;
+    z-index: -1;
+    mix-blend-mode: multiply;
+    transition: all 0.2s;
+    transform-origin: bottom;
+  }
+
+  .button13 a:hover:after{
+    top: 6px;
+    left: 0;
+    transform: perspective(1000px) rotateX(-75deg);
+}
+
+.button13 a:hover{
+    color: #ba05c3;
+}
