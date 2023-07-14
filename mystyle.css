@@ -812,7 +812,7 @@
 .button14 span:after{
     content: '';
     position: absolute;
-    width: 25%;
+    width: 25.5%;
     height: 100%;
     background-color: #b01af5;
     z-index: -1;
