@@ -2543,5 +2543,65 @@
    left: 75%;
    transition-delay: 0.45s
  }
+
+
+ .menu4  {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: verdana
+ }
+ 
+ .menu4 ul {
+   padding: 0;
+   display: flex;
+ }
+ 
+ .menu4 li {
+   list-style-type: none;
+   padding: 10px 20px;
+ }
+ 
+ .menu4 a {
+   text-decoration: none;
+   text-transform: uppercase;
+   font-size: 20px;
+   color: #222;
+   position: relative;
+ }
+ 
+ .menu4 ul li a:before {
+   content: "";
+   width: 0;
+   height: 5px;
+   background-color: #00bcd4;
+   position: absolute;
+   top: 120%;
+   left: 0;
+   transition: all 0.5s;
+ }
+ 
+ .menu4 ul li a:after {
+   content: "";
+   width: 0;
+   height: 5px;
+   background-color: #f0f;
+   position: absolute;
+   top: 120%;
+   right: 0;
+   transition: all 0.5s;
+ }
+ 
+ .menu4 ul li a:hover:before {
+   width: 50%;
+   transform: translateX(100%);
+ }
+ 
+ .menu4 ul li a:hover:after {
+   width: 50%;
+   transform: translateX(-100%);
+ }
     
    
