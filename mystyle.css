@@ -2926,3 +2926,71 @@
   opacity: 1;
 }
    
+.menu9{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(27, 27, 27);
+  align-items: center;
+  font-family: 'Raleway', Arial, sans-serif;
+}
+
+.menu9 ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu9 li {
+  list-style: none;
+}
+
+.menu9 a {
+  position: relative;
+  display: block;
+  padding: 15px 30px;
+  margin: 0 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffeb3b;
+}
+
+.menu9 a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-top: 2px solid #ffeb3b;
+  border-left: 2px solid #ffeb3b;
+  transition: 0.5s;
+  box-sizing: border-box;
+  transform-origin: left;
+}
+
+.menu9 a:hover::before {
+  width: 15px;
+  height: 15px;
+  transform: rotate(360deg);
+}
+
+.menu9 a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border-bottom: 2px solid #ffeb3b;
+  border-right: 2px solid #ffeb3b;
+  transition: 0.5s;
+  box-sizing: border-box;
+  transform-origin: right;
+}
+
+.menu9 a:hover::after {
+  width: 15px;
+  height: 15px;
+  transform: rotate(360deg);
+}
