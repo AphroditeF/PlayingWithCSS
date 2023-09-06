@@ -2308,13 +2308,13 @@
  opacity: 0;
 }
 
-.image11 .container:before{
+.image11 .container::before{
  background-color: #006266;
  opacity: 0;
  transition: all 0.3s; 
 }
 
-.image11 .container:hover:before{
+.image11 .container:hover::before{
  opacity: 1;
  transition-delay: 0.5s;
 }
@@ -2379,7 +2379,7 @@
 	position: relative;
 }
 
-.menu1 ul li a:before {
+.menu1 ul li a::before {
 	content: '';
 	position: absolute;
 	top: 0;
@@ -2392,11 +2392,11 @@
 	transform-origin: left
 }
 
- .menu1 ul li a:hover:before, .menu1 ul li a:hover:after {
+ .menu1 ul li a:hover::before, .menu1 ul li a:hover::after {
  	transform: scaleX(1);
  }
 
- .menu1 ul li a:after {
+ .menu1 ul li a::after {
 	content: '';
 	position: absolute;
 	bottom: 0;
@@ -2441,7 +2441,7 @@
    color:white;
  }
  
- .menu2 a:before {
+ .menu2 a::before {
    content: "";
    position: absolute;
    bottom: 12px;
@@ -2454,13 +2454,13 @@
    transition: all 0.3s
  }
  
- .menu2 a:hover:before {
+ .menu2 a:hover::before {
    opacity: 1;
    bottom: -8px;
    left: -8px;
  }
  
- .menu2 a:after {
+ .menu2 a::after {
    content: "";
    position: absolute;
    top: 12px;
@@ -2473,7 +2473,7 @@
    transition: all 0.3s;
  }
  
- .menu2 a:hover:after {
+ .menu2 a:hover::after {
    opacity: 1;
    top: -8px;
    right: -8px;
