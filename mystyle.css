@@ -3905,4 +3905,25 @@
 
 	100% { transform: translate(1000px, 500px); }
 }
+.animation3 {
+	margin: 0;
+  height: 100vh;
+  display: flex;
+}
+.animation3 div {
+	width: 150px;
+	height: 150px;
+	background-color: red;
+	animation-name: moving3;
+	animation-duration: 5s;
+	animation-fill-mode: both;
+	animation-delay: 3s;
+}
 
+@keyframes moving3 { /* FOR .animation3*/
+	0% { transform: translateX(500px); }
+
+	50% { transform: translateX(1000px); }
+
+	100% { transform: translate(1000px, 500px); }
+}
