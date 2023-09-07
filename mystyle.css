@@ -3953,3 +3953,29 @@
 
 	100% { transform: translate(1000px, 500px); }
 }
+
+.animation5 {
+	margin: 0;
+  height: 100vh;
+  display: flex;
+}
+
+.animation5 div {
+	width: 150px;
+	height: 150px;
+	background-color: red;
+	animation-name: moving5;
+	animation-duration: 3s;
+	animation-fill-mode: both;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+}
+
+/* FOR .animation5*/
+@keyframes moving5 {
+	0% { transform: translateX(500px); }
+
+	50% { transform: translateX(1000px); }
+
+	100% { transform: translate(1000px, 500px); }
+}
