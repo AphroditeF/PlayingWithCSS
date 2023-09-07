@@ -3884,3 +3884,25 @@
 	to { transform: translateX(1000px); }
 }
 
+.animation2 {
+	margin: 0;
+  height: 100vh;
+  display: flex;
+}
+
+.animation2 div {
+	width: 150px;
+	height: 150px;
+	background-color: red;
+	animation-name: moving2;
+	animation-duration: 3s;
+}
+
+@keyframes moving2 { /* FOR .animation2*/
+	0% { transform: translateX(0); }
+
+	10% { transform: translateX(1000px); }
+
+	100% { transform: translate(1000px, 500px); }
+}
+
