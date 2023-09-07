@@ -3863,3 +3863,24 @@
   transition-delay: 1.5s;
 }
 
+
+.animation1 {
+	margin: 0;
+  height: 100vh;
+  display: flex;
+}
+
+.animation1 div {
+	width: 150px;
+	height: 150px;
+	background-color: red;
+	animation-name: moving;
+	animation-duration: 3s;
+}
+
+@keyframes moving { /* FOR .animation1*/
+	from { transform: translateX(0); }
+
+	to { transform: translateX(1000px); }
+}
+
