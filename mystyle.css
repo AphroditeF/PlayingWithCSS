@@ -3979,3 +3979,25 @@
 
 	100% { transform: translate(1000px, 500px); }
 }
+
+.animation6 {
+	margin: 0;
+  height: 100vh;
+  display: flex;
+}
+
+.animation6 div {
+	width: 150px;
+	height: 150px;
+	background-color: red;
+	animation: moving6 3s both 3 ease-in alternate 1s;
+}
+
+/* FOR .animation6*/
+@keyframes moving6 {
+	0% { transform: translateX(500px); }
+
+	50% { transform: translateX(1000px); }
+
+	100% { transform: translate(1000px, 500px); }
+}
