@@ -4127,3 +4127,17 @@
 	100% { content: 'transforms' }
 }
 
+
+.creativeAnimation5 .banner {
+	height: 100vh;
+	background: url(img/image14.png);
+	background-position: 0 0;
+	animation: animated-pattern 15s linear infinite;
+}
+/*. For creativeAnimation5*/
+@keyframes animated-pattern {
+	from { background-position: 0 0 }
+
+	to { background-position: 800px 600px; }
+}
+
