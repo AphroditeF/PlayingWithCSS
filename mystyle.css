@@ -3655,3 +3655,36 @@
 .cssTransform1 ul li:nth-child(5) {
 	transition-delay: 1.6s;
 }
+.cssTransform2 {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: sans-serif;
+ }
+ 
+ .cssTransform2 h1 {
+   margin: 0;
+   padding: 0;
+   font-family: verdana;
+   font-size: 120px;
+   color: #ccc;
+   text-transform: uppercase;
+   position: relative;
+ }
+ 
+ .cssTransform2 h1::before {
+   content: "text";
+   position: absolute;
+   top: 0;
+   left: 0;
+   color: #262626;
+   width: 0%;
+   overflow: hidden;
+   transition: all 0.5s
+ }
+ 
+ .cssTransform2 h1:hover::before {
+   width: 100%;
+ }
