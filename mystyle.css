@@ -4057,3 +4057,42 @@
 
 	100% { transform: rotateX(180deg) rotateY(180deg); }
 }
+
+
+.creativeAnimation3{
+	margin: 0;
+	padding: 0;
+  background-color: #001f31;
+  height: 100vh;
+	
+}
+
+.creativeAnimation3 .background {
+	height: 65%;
+	background: url(img/image13.jpg);
+	background-position: bottom left;
+	animation: driving 10s linear infinite;
+  position: relative;
+  bottom: -400px;
+}
+
+.creativeAnimation3 .car {
+	position: absolute;
+	left: 300px;
+	bottom: -50px;
+	width: 200px;
+}
+
+.creativeAnimation3 .motorbike {
+	position: absolute;
+	left: 700px;
+	bottom: 55px;
+	width: 150px;
+}
+
+@keyframes driving {
+	from { background-position: bottom left; }
+
+	to { background-position: bottom right; }
+}
+
