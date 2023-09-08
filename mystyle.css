@@ -4694,3 +4694,35 @@
 	75% { background: url(img/image21.jpg); }
 	100% { background: url(img/image21.jpg); }
 }
+
+
+.creativeAnimation17 {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Lato', sans-serif;
+	animation: bgchange 20s infinite;
+}
+
+.creativeAnimation17 h1 {
+	font-size: 70px;
+	text-align: center;
+	text-transform: capitalize;
+	color: white;
+}
+
+/* For .creativeAnimation17 */
+@keyframes bgchange {
+	0% { background-color: #272727 }
+
+	20% { background-color: blue }
+
+	40% { background-color: tomato }
+
+	60% { background-color: lightblue }
+
+	80% { background-color: darkgreen }
+
+	100% { background-color: #272727 }
+}
