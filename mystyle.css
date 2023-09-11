@@ -5128,3 +5128,80 @@
  .creativeAnimation24 .obj:nth-child(8) {
    animation-delay: 0.7s;
  }
+
+ .creativeAnimation25{
+	height: 100vh;
+	font-family: sans-serif;
+	background-color: #222D3E;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.creativeAnimation25 * {
+	box-sizing: border-box;
+}
+
+.creativeAnimation25 .loader {
+	width: 200px;
+	height: 200px;
+	position: relative;
+}
+
+.creativeAnimation25 .outer {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	border-left: 5px solid #eb4d4b;
+	border-right: 5px solid #eb4d4b;
+	border-top: 5px solid transparent;
+	border-bottom: 5px solid transparent;
+	border-radius: 50%;
+	animation: rotate25 1s linear infinite;
+}
+
+.creativeAnimation25 .middle {
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	right: 30px;
+	bottom: 30px;
+	border-left: 5px solid #218c74;
+	border-right: 5px solid #218c74;
+	border-top: 5px solid transparent;
+	border-bottom: 5px solid transparent;
+	border-radius: 50%;
+	animation: rotate25 1s linear infinite reverse;
+}
+
+.creativeAnimation25 .inner {
+	position: absolute;
+	top: 60px;
+	left: 60px;
+	right: 60px;
+	bottom: 60px;
+	border-left: 5px solid #ccae62;
+	border-right: 5px solid #ccae62;
+	border-top: 5px solid transparent;
+	border-bottom: 5px solid transparent;
+	border-radius: 50%;
+	animation: rotate25 1s linear infinite;
+}
+
+.creativeAnimation25 .dot {
+	position: absolute;
+	top: 90px;
+	left: 90px;
+	right: 90px;
+	bottom: 90px;
+	background-color: white;
+	border-radius: 50%;
+}
+
+/* For .creativeAnimation25 */
+@keyframes rotate25 {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+}
