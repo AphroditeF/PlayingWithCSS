@@ -5070,3 +5070,61 @@
      transform-origin: right;
    }
  }
+
+ .creativeAnimation24{
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #212121;
+ }
+ 
+ .creativeAnimation24 .loading {
+   display: flex;
+ }
+ 
+ .creativeAnimation24 .obj {
+   width: 6px;
+   height: 40px;
+   background-color: white;
+   margin: 0 3px;
+   border-radius: 10px;
+   animation: loading24 0.8s linear infinite;
+   transform-origin: bottom;
+ }
+ 
+ @keyframes loading24 {
+   0% { transform: scaleY(0); }
+   50% { transform: scaleY(1); }
+   100% { transform: scaleY(0); }
+ }
+ 
+ /* For .creativeAnimation24 */
+ .creativeAnimation24 .obj:nth-child(2) {
+   animation-delay: 0.1s;
+ }
+ 
+ .creativeAnimation24 .obj:nth-child(3) {
+   animation-delay: 0.2s;
+ }
+ 
+ .creativeAnimation24 .obj:nth-child(4) {
+   animation-delay: 0.3s;
+ }
+ 
+ .creativeAnimation24 .obj:nth-child(5) {
+   animation-delay: 0.4s;
+ }
+ 
+ .creativeAnimation24 .obj:nth-child(6) {
+   animation-delay: 0.5s;
+ }
+ 
+ .creativeAnimation24 .obj:nth-child(7) {
+   animation-delay: 0.6s;
+ }
+ 
+ .creativeAnimation24 .obj:nth-child(8) {
+   animation-delay: 0.7s;
+ }
