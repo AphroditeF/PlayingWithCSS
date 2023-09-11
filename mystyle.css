@@ -5205,3 +5205,58 @@
 	0% { transform: rotate(0deg); }
 	100% { transform: rotate(360deg); }
 }
+
+.creativeAnimation26{
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0a3d62;
+}
+
+.creativeAnimation26 .loader {
+  position: relative;
+  width: 90px;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.creativeAnimation26 span {
+  width: 30px;
+  height: 30px;
+  position: relative;
+}
+
+.creativeAnimation26 span:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  animation: loading26 1s linear infinite;
+}
+
+/* For .creativeAnimation26 */
+@keyframes loading26 {
+  0% { width: 100%;
+  height: 100%; }
+  100% { width: 0;
+  height: 0; }
+}
+
+.creativeAnimation26 .s4:before,
+.creativeAnimation26 .s5:before,
+.creativeAnimation26 .s6:before {
+  animation-delay: 0.1s;
+}
+
+.creativeAnimation26 .s7:before,
+.creativeAnimation26 .s8:before,
+.creativeAnimation26 .s9:before {
+  animation-delay: 0.2s;
+}
