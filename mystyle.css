@@ -4047,10 +4047,10 @@
 	height: 100px;
 	background-color: white;
 	border-radius: 12px;
-	animation: loading 2s linear infinite;
+	animation: loading2 2s linear infinite;
 }
 /*. For creativeAnimation2*/
-@keyframes loading {
+@keyframes loading2 {
 	0% { transform: rotateX(0deg) rotateY(0deg); }
 
 	50% { transform: rotateX(0deg) rotateY(180deg); }
@@ -4205,11 +4205,11 @@
 	position: absolute;
 	z-index: -1;
 	transform: skew(-15deg);
-	animation: moving 1.2s linear infinite;
+	animation: moving7 1.2s linear infinite;
 	transition: all .5s;
 }
 /* For creativeAnimation7*/
-@keyframes moving {
+@keyframes moving7 {
 
 	from { left: -120px }
 
@@ -4567,11 +4567,11 @@
    list-style-type: none;
    font-size: 80px;
    letter-spacing: 20px;
-   animation: loading 3s linear infinite
+   animation: loading14 3s linear infinite
  }
  
  /* For creativeAnimation14 */
- @keyframes loading {
+ @keyframes loading14 {
    0% {
      color: red;
      transform: translateX(-50px);
@@ -4800,7 +4800,7 @@
   width: 100px;
   height: 100px;
   position: relative;
-  animation: animate 1s linear infinite;
+  animation: animate19 1s linear infinite;
   transform: rotate(45deg);
 }
 
@@ -4808,7 +4808,7 @@
   position: absolute;
   width: 50px;
   height: 50px;
-  animation: rotate 1s linear infinite
+  animation: rotate19 1s linear infinite
 }
 
 .creativeAnimation19 span:nth-child(1) {
@@ -4836,7 +4836,7 @@
 }
 
 /* For .creativeAnimation19 */
-@keyframes rotate {
+@keyframes rotate19 {
   0% {
       transform: rotate(0deg);
   }
@@ -4859,7 +4859,7 @@
 }
 
 /* For .creativeAnimation19 */
-@keyframes animate {
+@keyframes animate19 {
   0% {
       width: 100px;
       height: 100px;
