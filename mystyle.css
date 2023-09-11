@@ -5758,7 +5758,7 @@
   background: #111;
 }
 
-.loader{
+.creativeAnimation33 .loader{
   position: relative;
   width: 200px;
   height: 200px;
@@ -5767,7 +5767,7 @@
   align-items: center;
 }
 
-.loader span{
+.creativeAnimation33 .loader span{
   position: absolute;
   top: 0;
   left: 0;
@@ -5778,14 +5778,14 @@
   animation: rotate33 5s linear infinite;
 }
 
-.loader span:nth-child(1){
+.creativeAnimation33 .loader span:nth-child(1){
   border-radius: 29% 71% 30% 70% / 34% 27% 73% 66%  ;
 }
-.loader span:nth-child(2){
+.creativeAnimation33 .loader span:nth-child(2){
   border-radius:56% 44% 57% 43% / 48% 46% 54% 52%  ;
   animation-direction: reverse;
 }
-.loader span:nth-child(3){
+.creativeAnimation33 .loader span:nth-child(3){
   border-radius:48% 52% 61% 39% / 60% 54% 46% 40%   ;
   animation-duration: 3s;
 }
@@ -5800,7 +5800,7 @@
   }
 }
 
-h2{
+.creativeAnimation33 h2{
   color: #fff;
   font-weight: 500;
 }
