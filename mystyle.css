@@ -5743,3 +5743,64 @@
 .creativeAnimation32 .glass:nth-child(2) .liquid:before {
   background: #bb9e1b;
 }
+
+.creativeAnimation33 *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: consolas;
+}
+.creativeAnimation33{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #111;
+}
+
+.loader{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader span{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: solid 2px white;
+  animation: rotate33 5s linear infinite;
+}
+
+.loader span:nth-child(1){
+  border-radius: 29% 71% 30% 70% / 34% 27% 73% 66%  ;
+}
+.loader span:nth-child(2){
+  border-radius:56% 44% 57% 43% / 48% 46% 54% 52%  ;
+  animation-direction: reverse;
+}
+.loader span:nth-child(3){
+  border-radius:48% 52% 61% 39% / 60% 54% 46% 40%   ;
+  animation-duration: 3s;
+}
+
+ /* For .creativeAnimation33 */
+@keyframes rotate33{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+h2{
+  color: #fff;
+  font-weight: 500;
+}
